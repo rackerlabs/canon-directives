@@ -1,0 +1,81 @@
+[
+  {
+    "property": "all",
+    "label": "All Tickets",
+    "type": "text",
+    "ongrid": false,
+    "onfacets": true
+  },
+
+  {
+    "property": "subject",
+    "label": "Subject",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "status",
+    "label": "Status",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": true
+  },
+
+  {
+    "property": "devices",
+    "label": "Devices",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "updated",
+    "label": "Updated",
+    "type": "text",
+    "max": 4,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "number",
+    "label": "Number",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "visibility",
+    "label": "Visibility",
+    "type": "text",
+    "max": 2,
+    "ongrid": false,
+    "onfacets": true
+  },
+
+  {
+    "property": "datacenter",
+    "label": "Datacenter",
+    "type": "text",
+    "max": 2,
+    "ongrid": false,
+    "onfacets": true
+  },
+
+  {
+    "property": "hardware",
+    "label": "Hardware Type",
+    "type": "text",
+    "max": 2,
+    "ongrid": false,
+    "onfacets": true
+  }
+]
