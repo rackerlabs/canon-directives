@@ -1,0 +1,72 @@
+[
+  {
+    "property": "all",
+    "label": "All Servers",
+    "type": "text",
+    "ongrid": false,
+    "onfacets": true
+  },
+
+  {
+    "property": "icon",
+    "label": "",
+    "type": "image",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "name",
+    "label": "Device Name",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "nick",
+    "label": "Nickname",
+    "type": "text",
+    "max": 3,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "type",
+    "label": "Type",
+    "type": "text",
+    "max": 4,
+    "ongrid": true,
+    "onfacets": false
+  },
+
+  {
+    "property": "status",
+    "label": "Status",
+    "type": "text",
+    "max": 3,
+    "ongrid": false,
+    "onfacets": true
+  },
+
+  {
+    "property": "cluster",
+    "label": "Cluster",
+    "type": "text",
+    "max": 2,
+    "ongrid": true,
+    "onfacets": true
+  },
+
+  {
+    "property": "region",
+    "label": "Region",
+    "type": "text",
+    "max": 2,
+    "ongrid": true,
+    "onfacets": true
+  }
+]

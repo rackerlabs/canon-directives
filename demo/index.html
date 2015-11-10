@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Canon Starter Template</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/css/layouts/portal.css" type="text/css" media="all" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://eafdbc63c97ce6bec9ef-b0a668e5876bef6fe25684caf71db405.ssl.cf1.rackcdn.com/v1-latest/canon.min.css" />
+
+  <script type="application/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script data-require="angular.js@1.4.3" data-semver="1.4.3" src="https://code.angularjs.org/1.4.3/angular.js"></script>
+  <script data-require="lodash.js@*" data-semver="3.10.0" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js"></script>
+  <script type="application/javascript" src="https://eafdbc63c97ce6bec9ef-b0a668e5876bef6fe25684caf71db405.ssl.cf1.rackcdn.com/v1-latest/canon.min.js"></script>
+  <script data-airbrake-project-id="115430" data-airbrake-project-key="e6a55ac2734fa6b4cb19816164f752d2" data-airbrake-environment-name="plnkr" src="https://s3-us-west-2.amazonaws.com/myrs/airbrake.js"></script>
+
+  <script type="application/javascript" src="common.library.js"></script>
+  <script type="application/javascript" src="rs.facets.js"></script>
+  <script type="application/javascript" src="rs.facets.sublist.js"></script>
+  <script type="application/javascript" src="rs.data.grid.js"></script>
+
+  <script type="application/javascript" src="app.js"></script>
+</head>
+
+<body class="rs-responsive" ng-app="app.thirdparty">
+  <div class="rs-wrapper">
+    <div class="rs-nav-utility">
+      <div class="rs-container">
+        <ul class="rs-nav rs-pull-right">
+          <li class="rs-nav-item">
+            <a class="rs-nav-link" href="#">Account: Username123</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="rs-nav-primary">
+      <div class="rs-container">
+        <div class="rs-nav-brand">
+          <a href="index.html"></a>
+        </div>
+        <ul class="rs-nav">
+          <li>
+            <a href="#">Link One</a>
+          </li>
+          <li>
+            <a href="#">Link Two</a>
+          </li>
+          <li>
+            <a href="#">Link Three</a>
+          </li>
+          <li>
+            <a href="#">Link Four</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="rs-nav-secondary">
+      <div class="rs-container">
+        <ul class="rs-nav">
+          <li>
+            <a href="#">Subnav One</a>
+          </li>
+          <li>
+            <a href="#">Subnav Two</a>
+          </li>
+          <li>
+            <a href="#">Subnav Three</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="rs-body">
+      <div class="rs-container">
+        <div class="rs-main">
+
+          <div class="rs-sidebar">
+            <div class="rs-inner">
+              <header class="page-header">
+                <h1 id="app-header" class="page_title">Filters</h1>
+              </header>
+              <rs-facets></rs-facets>
+            </div>
+          </div>
+
+          <div class="rs-content rs-panel">
+            <div class="rs-inner">
+              <alerts></alerts>
+              <h2>Reusable Angular Composite Component</h2>
+              <p>An example of developing a reusable component in Angular that does these things:</p>
+              <ul>
+                <li>Self-populating with data. The data can come from same or different domain from where the component is used. Set CORS policy.</li>
+                <li>Self-aware when it is being loaded and shows a loading icon when the data is being loaded, or remove "loading-table".</li>
+                <li>Reports front-end errors to a hosted service on same or different domain (Airbrake.io).</li>
+                <li>Easy to implement by any Angular app. Just inject the module and reference the javascript files.</li>
+                <li>A composite of directives that are contained in a core module, and these directives can be shared by other similar composite components.</li>
+                <li>Uses Lodash to join two disparate data sources, one for core device info, other for cogs menu info.</li>
+                <li>The component's template can be a templateUrl or a template. The former allows for customizing the template, the latter allows for one less file to reference.</li>
+              </ul>
+
+              <div ng-controller="parentAppController as parentCtlr">
+                These alerts can be thrown programmatically or manually as shown here, and they are all logged to Airbrake.io.
+                <br/>
+                <a class="btn btn-danger" ng-click="parentCtlr.createAlert('danger', 'A simulated javascript error')">Javascript Error</a>
+                <a class="btn btn-warning" ng-click="parentCtlr.createAlert('warning', 'User entered bad data format')">Invalid Data</a>
+                <a class="btn btn-info" ng-click="parentCtlr.createAlert('info', 'Info/warning alert to user')">Info/warning</a>
+                <a class="btn btn-success" ng-click="parentCtlr.createAlert('success', 'Yay! Success alert to user')">Success Feedback</a>
+              </div>
+    <br/>
+              <rs-data-grid></rs-data-grid>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rs-push"></div>
+  </div>
+  <div class="rs-nav-footer">
+    <div class="rs-container">
+      <ul class="rs-nav">
+        <li class="rs-nav-item">© Rackspace, US</li>
+        <li class="rs-nav-item">
+          <a class="rs-nav-link" href="http://www.rackspace.com/information/legal/websiteterms" target="blank">Website Terms</a>
+        </li>
+        <li class="rs-nav-item">
+          <a class="rs-nav-link" href="http://www.rackspace.com/information/legal/privacystatement" target="blank">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    //throw new Error("error from parent doc");
+  </script>
+</body>
+
+</html>
