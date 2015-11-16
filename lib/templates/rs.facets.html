@@ -1,7 +1,7 @@
 <div class="facets-section">
-	<div ng-repeat="facet in vm.facets" ng-if="facet.onfacets">
+	<div ng-repeat="facet in facets" ng-if="facet.onfacets">
 		<h3>
-    		<input type="checkbox" ng-if="facet.property==='all'" ng-model="allchecked" ng-change="vm.getGridData();showAllFacets(allchecked)"/> 
+    		<input type="checkbox" ng-if="facet.property==='all'" ng-model="allchecked" ng-change="clickAll(allchecked)"/> 
     		{{facet.label}} 
     		<rs-facets-sublist facet="{{facet}}"></rs-facets-sublist>
     	</h3>

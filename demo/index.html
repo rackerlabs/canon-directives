@@ -86,16 +86,12 @@
           <div class="rs-content rs-panel">
             <div class="rs-inner">
               <alerts></alerts>
-              <h2>Reusable Angular Composite Component</h2>
+              <h2>Dynamic Table Angular Component</h2>
               <p>An example of developing a reusable component in Angular that does these things:</p>
               <ul>
-                <li>Self-populating with data. The data can come from same or different domain from where the component is used. Set CORS policy.</li>
-                <li>Self-aware when it is being loaded and shows a loading icon when the data is being loaded, or remove "loading-table".</li>
+                <li>Generates dynamic table headers (column names) based on data feeds</li>
+                <li>Generates dynamic filters (facets) based on data feeds</li>
                 <li>Reports front-end errors to a hosted service on same or different domain (Airbrake.io).</li>
-                <li>Easy to implement by any Angular app. Just inject the module and reference the javascript files.</li>
-                <li>A composite of directives that are contained in a core module, and these directives can be shared by other similar composite components.</li>
-                <li>Uses Lodash to join two disparate data sources, one for core device info, other for cogs menu info.</li>
-                <li>The component's template can be a templateUrl or a template. The former allows for customizing the template, the latter allows for one less file to reference.</li>
               </ul>
 
               <div ng-controller="parentAppController as parentCtlr">

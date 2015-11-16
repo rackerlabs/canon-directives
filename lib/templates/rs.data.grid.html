@@ -7,15 +7,15 @@
   <thead>
     <tr>
       <th class="col-right" style="width: 20px"></th>
-      <th ng-repeat="facet in vm.facets" ng-if="facet.ongrid">{{facet.label}}</th>
+      <th ng-repeat="facet in facets" ng-if="facet.ongrid">{{facet.label}}</th>
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="item in vm.currentItems">
+    <tr ng-repeat="item in currentItems">
       <td class="rs-table-cog">
         <rs-cog cogitems="item.cogitems" ng-show="item.cogitems"></rs-cog>
       </td>
-      <td ng-repeat="facet in vm.facets" ng-if="facet.ongrid">
+      <td ng-repeat="facet in facets" ng-if="facet.ongrid">
       	<span ng-if="facet.type==='text'">{{item[facet.property]}}</span>
       	<img ng-if="facet.type==='image'" ng-src="{{item[facet.property]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
       </td>

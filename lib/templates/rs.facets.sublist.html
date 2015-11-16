@@ -1,9 +1,10 @@
 <h4 ng-if="facet.property!=='all'">
-	<div ng-repeat="key in vm.keys">
+	<div ng-repeat="key in sublist">
 		<h5 ng-hide="vm.facetGroupChecked(facet.property, key)">
-			<input type="checkbox" ng-model="checkbox.value" ng-change="vm.change(facet.property, key, checkbox.value)">
+			<input type="checkbox" ng-model="checkbox.value" ng-change="vm.clickFacet(facet.property, key, checkbox.value)">
 			<span ng-if="facet.type==='text'">{{key}}</span>
-			<img ng-if="facet.type==='image'" ng-src="{{key}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">({{vm.groupedFacets[key].length}})
+			<img ng-if="facet.type==='image'" ng-src="{{key}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
+			({{vm.groupedFacets[key].length}})
 		</h5>
 	</div>
 </h4>
