@@ -5,7 +5,7 @@
 
 <table class="myrs-datagrid">
   <thead>
-    <tr class="sortable">
+    <tr>
       <th class="col-right" style="width: 20px"><a></a></th>
       <th ng-repeat="facet in facets" ng-if="facet.ongrid"><a ng-click="vm.orderByField=facet.property; vm.reverseSort=!vm.reverseSort">{{facet.label}}</a></th>
     </tr>
