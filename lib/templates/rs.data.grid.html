@@ -1,17 +1,17 @@
 <myrs-buttongroup>
-  <a class="rs-btn rs-btn-primary" ng-click="vm.getGridData(true)">
-    &lt; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.getGridData(true)" class="pull-right">Next &gt;</a> 
+  <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()">
+    &lt; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()" class="pull-right">Next &gt;</a> Buttons simulate random data
 </myrs-buttongroup>
 
 <table class="myrs-datagrid">
   <thead>
-    <tr>
-      <th class="col-right" style="width: 20px"></th>
-      <th ng-repeat="facet in facets" ng-if="facet.ongrid">{{facet.label}}</th>
+    <tr class="sortable">
+      <th class="col-right" style="width: 20px"><a></a></th>
+      <th ng-repeat="facet in facets" ng-if="facet.ongrid"><a ng-click="vm.orderByField=facet.property; vm.reverseSort=!vm.reverseSort">{{facet.label}}</a></th>
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="item in currentItems">
+    <tr ng-repeat="item in currentItems | orderBy:vm.orderByField:vm.reverseSort">
       <td class="rs-table-cog">
         <rs-cog cogitems="item.cogitems" ng-show="item.cogitems"></rs-cog>
       </td>
