@@ -8,6 +8,9 @@ gulp.task('build', function() {
 
   gulp.src('lib/**/*')
     .pipe(gulp.dest('demo/build'));
+
+  gulp.src('test/data/*.json')
+    .pipe(gulp.dest('demo/build/data'));
 });
 
 gulp.task('server', function (){
