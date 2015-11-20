@@ -13,7 +13,7 @@
     "type": "image",
     "max": 3,
     "ongrid": true,
-    "onfacets": false
+    "onfacets": true
   },
 
   {
@@ -38,7 +38,7 @@
     "property": "type",
     "label": "Type",
     "type": "text",
-    "max": 4,
+    "max": 3,
     "ongrid": true,
     "onfacets": false
   },
@@ -56,7 +56,7 @@
     "property": "cluster",
     "label": "Cluster",
     "type": "text",
-    "max": 2,
+    "max": 3,
     "ongrid": true,
     "onfacets": true
   },
@@ -65,7 +65,7 @@
     "property": "region",
     "label": "Region",
     "type": "text",
-    "max": 2,
+    "max": 3,
     "ongrid": true,
     "onfacets": true
   }

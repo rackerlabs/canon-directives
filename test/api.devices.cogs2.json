@@ -1,0 +1,278 @@
+{
+  "ITEM-1": 
+  {
+    "cogitems": [{
+        "category": "Identify",
+        "items": [{
+          "url": "RenameServerURL",
+          "link": "Rename Server..."
+        }, {
+          "url": "TagServerURL",
+          "link": "Tag Server..."
+        }]
+      }, {
+        "category": "Image",
+        "items": [{
+          "url": "CreateImageURL",
+          "link": "Create Image..."
+        }, {
+          "url": "ScheduleURL",
+          "link": "Schedule Daily Image..."
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-2":
+  {
+    "cogitems": [{
+        "category": "Recover",
+        "items": [{
+          "url": "RebuildURL",
+          "link": "Rebuild Server..."
+        }, {
+          "url": "EnterRescueURL",
+          "link": "Enter Rescue Mode..."
+        }]
+      }, {
+        "category": "Manage",
+        "items": [{
+          "url": "ConnectURL",
+          "link": "Connect Via Terminal..."
+        }, {
+          "url": "RebootURL",
+          "link": "Reboot Server..."
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-3":
+  {
+    "cogitems": [{
+        "category": "Manage",
+        "items": [{
+          "url": "TicketsURL",
+          "link": "Tickets"
+        }, {
+          "url": "BandwidthURL",
+          "link": "Bandwidth"
+        }, {
+          "url": "IPAddressesURL",
+          "link": "IP Addresses (Ping)"
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }]
+      }, {
+        "category": "Edit",
+        "items": [{
+          "url": "ConfigurationURL",
+          "link": "Configuration Notes"
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-4":
+  {
+    "cogitems": [{
+        "category": "Manage",
+        "items": [{
+          "url": "TicketsURL",
+          "link": "Tickets"
+        }, {
+          "url": "BandwidthURL",
+          "link": "Bandwidth"
+        }, {
+          "url": "IPAddressesURL",
+          "link": "IP Addresses (Ping)"
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }, {
+          "url": "FirewallURL",
+          "link": "Manage Firewall"
+        }]
+      }, {
+        "category": "Network",
+        "items": [{
+          "url": "DownloadURL",
+          "link": "Download Network Config..."
+        }, {
+          "url": "ConfigFileURL",
+          "link": "Edit Weekly Config File..."
+        }, {
+          "url": "DisableURL",
+          "link": "Disable Weekly Config File..."
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }, {
+          "url": "FirewallURL",
+          "link": "Manage Firewall"
+        }]
+      }, {
+        "category": "Edit",
+        "items": [{
+          "url": "ConfigurationURL",
+          "link": "Configuration Notes"
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-5":
+  {
+    "cogitems": [{
+        "category": "Identify",
+        "items": [{
+          "url": "RenameServerURL",
+          "link": "Rename Server..."
+        }, {
+          "url": "TagServerURL",
+          "link": "Tag Server..."
+        }]
+      }, {
+        "category": "Image",
+        "items": [{
+          "url": "CreateImageURL",
+          "link": "Create Image..."
+        }, {
+          "url": "ScheduleURL",
+          "link": "Schedule Daily Image..."
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-6":
+  {
+    "cogitems": [{
+        "category": "Recover",
+        "items": [{
+          "url": "RebuildURL",
+          "link": "Rebuild Server..."
+        }, {
+          "url": "EnterRescueURL",
+          "link": "Enter Rescue Mode..."
+        }]
+      }, {
+        "category": "Manage",
+        "items": [{
+          "url": "ConnectURL",
+          "link": "Connect Via Terminal..."
+        }, {
+          "url": "RebootURL",
+          "link": "Reboot Server..."
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-7":
+  {
+    "cogitems": [{
+        "category": "Manage",
+        "items": [{
+          "url": "TicketsURL",
+          "link": "Tickets"
+        }, {
+          "url": "BandwidthURL",
+          "link": "Bandwidth"
+        }, {
+          "url": "IPAddressesURL",
+          "link": "IP Addresses (Ping)"
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }]
+      }, {
+        "category": "Edit",
+        "items": [{
+          "url": "ConfigurationURL",
+          "link": "Configuration Notes"
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-8":
+  {
+    "cogitems": [{
+        "category": "Manage",
+        "items": [{
+          "url": "TicketsURL",
+          "link": "Tickets"
+        }, {
+          "url": "BandwidthURL",
+          "link": "Bandwidth"
+        }, {
+          "url": "IPAddressesURL",
+          "link": "IP Addresses (Ping)"
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }, {
+          "url": "FirewallURL",
+          "link": "Manage Firewall"
+        }]
+      }, {
+        "category": "Network",
+        "items": [{
+          "url": "DownloadURL",
+          "link": "Download Network Config..."
+        }, {
+          "url": "ConfigFileURL",
+          "link": "Edit Weekly Config File..."
+        }, {
+          "url": "DisableURL",
+          "link": "Disable Weekly Config File..."
+        }, {
+          "url": "PermissionsURL",
+          "link": "Permissions"
+        }, {
+          "url": "FirewallURL",
+          "link": "Manage Firewall"
+        }]
+      }, {
+        "category": "Edit",
+        "items": [{
+          "url": "ConfigurationURL",
+          "link": "Configuration Notes"
+        }]
+    }]
+  }
+  
+  ,
+  
+  "ITEM-9":
+  {
+    "cogitems": [{
+        "category": "Recover",
+        "items": [{
+          "url": "RebuildURL",
+          "link": "Rebuild Server..."
+        }, {
+          "url": "EnterRescueURL",
+          "link": "Enter Rescue Mode..."
+        }]
+      }, {
+        "category": "Manage",
+        "items": [{
+          "url": "ConnectURL",
+          "link": "Connect Via Terminal..."
+        }, {
+          "url": "RebootURL",
+          "link": "Reboot Server..."
+        }]
+    }]
+  }
+}
