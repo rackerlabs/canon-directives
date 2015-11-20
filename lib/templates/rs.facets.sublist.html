@@ -3,7 +3,7 @@
 		<h5>
 			<input ng-class="{checkedFacet:checkbox.value}" type="checkbox" ng-model="checkbox.value" ng-change="vm.clickFacet(facet.property, key, checkbox.value)">
 			<span ng-if="facet.type==='text'">{{key}}</span>
-			<img ng-if="facet.type==='image'" ng-src="{{key}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
+			<img ng-if="facet.type==='image'" ng-src="{{ICONS[key]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
 			({{vm.groupedFacets[key].length}})
 		</h5>
 	</div>

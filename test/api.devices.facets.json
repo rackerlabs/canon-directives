@@ -13,7 +13,7 @@
     "type": "image",
     "max": 3,
     "ongrid": true,
-    "onfacets": false
+    "onfacets": true
   },
 
   {

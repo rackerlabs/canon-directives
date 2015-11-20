@@ -1,6 +1,6 @@
 <myrs-buttongroup>
   <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()">
-    &lt; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()" class="pull-right">Next &gt;</a> Buttons simulate random data
+    &larr; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()" class="pull-right">Next &rarr;</a> Buttons simulate random data
 </myrs-buttongroup>
 
 <table class="myrs-datagrid">
@@ -17,8 +17,15 @@
       </td>
       <td ng-repeat="facet in facets" ng-if="facet.ongrid">
       	<span ng-if="facet.type==='text'">{{item[facet.property]}}</span>
-      	<img ng-if="facet.type==='image'" ng-src="{{item[facet.property]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
+      	<img ng-if="facet.type==='image'" ng-src="{{ICONS[item[facet.property]]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
       </td>
     </tr>
   </tbody>
 </table>
+<ul class="pagination">
+  <li class="disabled"><a href="#">&laquo;</a></li>
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">&raquo;</a></li>
+</ul>
