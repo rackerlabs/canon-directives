@@ -11,6 +11,7 @@
     "url": "https://github.com/rackerlabs/canon-directives/issues"
   },
   "devDependencies": {
+    "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-webserver": "^0.9.1"
   }
