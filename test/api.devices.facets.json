@@ -11,7 +11,7 @@
     "property": "icon",
     "label": "",
     "type": "image",
-    "max": 3,
+    "max": 5,
     "ongrid": true,
     "onfacets": true
   },

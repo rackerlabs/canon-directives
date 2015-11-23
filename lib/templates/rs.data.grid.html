@@ -1,8 +1,4 @@
-<myrs-buttongroup>
-  <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()">
-    &larr; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.requestNewData()" class="pull-right">Next &rarr;</a> Buttons simulate random data
-</myrs-buttongroup>
-
+<rs-pagination items-per-page="itemsPerPage" current-page="currentPage"></rs-pagination>
 <table class="myrs-datagrid">
   <thead>
     <tr>
@@ -11,7 +7,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="item in currentItems | orderBy:vm.orderByField:vm.reverseSort">
+    <tr ng-repeat="item in currentItems.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) | orderBy:vm.orderByField:vm.reverseSort">
       <td class="rs-table-cog">
         <rs-cog cogitems="item.cogitems" ng-show="item.cogitems"></rs-cog>
       </td>
@@ -22,10 +18,4 @@
     </tr>
   </tbody>
 </table>
-<ul class="pagination">
-  <li class="disabled"><a href="#">&laquo;</a></li>
-  <li class="active"><a href="#">1</a></li>
-  <li><a href="#">2</a></li>
-  <li><a href="#">3</a></li>
-  <li><a href="#">&raquo;</a></li>
-</ul>
+<rs-pagination items-per-page="itemsPerPage" current-page="currentPage"></rs-pagination>
