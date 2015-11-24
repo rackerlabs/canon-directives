@@ -23,16 +23,18 @@
   <script type="application/javascript" src="../lib/scripts/rs.facets.sublist.js"></script>
   <script type="application/javascript" src="../lib/scripts/rs.data.grid.js"></script> -->
   <!-- modules -->
+
+  <script type="application/javascript" src="../lib/scripts/table-data-service.module.js"></script>
+  <script type="application/javascript" src="../lib/scripts/table-storage-service.module.js"></script>
   <script type="application/javascript" src="../../lib/scripts/data-table/data-table.module.js"></script>
   <script type="application/javascript" src="../lib/scripts/facet-section/facet-section.module.js"></script>
   <script type="application/javascript" src="../lib/scripts/facets/facets.module.js"></script>
   <script type="application/javascript" src="../lib/scripts/http-interceptor/http-interceptor.module.js"></script>
-  <script type="application/javascript" src="../lib/scripts/table-data-service.module.js"></script>
-  <script type="application/javascript" src="../lib/scripts/table-storage-service.module.js"></script>
   <script type="application/javascript" src="../lib/scripts/common.library.module.js"></script>
   <!-- end modules -->
 
   <!-- factories -->
+  <script type="application/javascript" src="../lib/scripts/http-interceptor/http-interceptor.service.js"></script>
   <script type="application/javascript" src="../lib/scripts/table-data-service.factory.js"></script>
   <script type="application/javascript" src="../lib/scripts/table-storage-service.factory.js"></script>
   <!-- end factories -->
@@ -109,7 +111,7 @@
               <header class="page-header">
                 <h1 id="app-header" class="page_title">Filters</h1>
               </header>
-              <rs-facets></rs-facets>
+              <facets></facets>
             </div>
           </div>
 
@@ -133,7 +135,7 @@
                 <a class="btn btn-success" ng-click="parentCtlr.createAlert('success', 'Yay! Success alert to user')">Success Feedback</a>
               </div>
     <br/>
-              <rs-data-grid></rs-data-grid>
+              <dataTable></dataTable>
 
             </div>
           </div>
