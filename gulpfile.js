@@ -5,6 +5,6 @@ var config = require('./gulp.config')();
 gulp.task('server', function() {
   var webserver = require('gulp-webserver');
   return gulp
-          .src('./demo')
+          .src('./')
           .pipe(webserver());
 });
