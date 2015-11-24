@@ -55,4 +55,12 @@ gulp.task('demo', ['build:demo'], function () {
     .pipe(webserver({ livereload: true }));
 });
 
+gulp.task('lint', function() {  
+  var jshint = require('gulp-jshint');
+
+  return gulp.src('lib/scripts/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+});
+
 gulp.task('default', ['build']);
