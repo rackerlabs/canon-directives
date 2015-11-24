@@ -8,11 +8,17 @@
     .controller("parentAppController", parentAppController);
 
   //Sample controller in parent app shows how to programmatically create an alert.
-  function parentAppController(alerting) { //demo parent controller, alerting service from myrs.core.js
+  function parentAppController(alerting, storageService) { //demo parent controller, alerting service from myrs.core.js
     var model = this;
     model.createAlert = function(type, message) {
       alerting.addAlert(type, message);
     }
+    storageService.requestData(true).then(function(data) {
+      storageService.setMasterData(data);
+      storageService.setCurrentItems(data.items);
+      storageService.setFacets(data.facets);
+    });
+
   }
 
 }());
