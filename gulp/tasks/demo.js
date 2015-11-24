@@ -1,30 +1,31 @@
-var gulp = require('gulp');
-var webserver = require('gulp-webserver');
-var async = require('async');
+var gulp = require('gulp'),
+    webserver = require('gulp-webserver'),
+    async = require('async'),
+    config = require('../config').demo;
 
 gulp.task('build:demo', ['build'], function(done) {
   async.parallel({
-    demo: function (done) {
-      gulp.src('demo/*')
-        .pipe(gulp.dest('demo/build'))
+    demoFiles: function (done) {
+      gulp.src(config.src.demo + '/*.*')
+        .pipe(gulp.dest(config.dest))
         .on('end', done);
     },
-    build: function (done) {
-      gulp.src('dist/**/*')
-        .pipe(gulp.dest('demo/build'))
+    buildFiles: function (done) {
+      gulp.src(config.src.build + '/**/*')
+        .pipe(gulp.dest(config.dest))
         .on('end', done);
     },
-    data: function (done) {
-      gulp.src('test/data/*.json')
-        .pipe(gulp.dest('demo/build/data'))
+    dataFiles: function (done) {
+      gulp.src(config.src.data + '/*.json')
+        .pipe(gulp.dest(config.dest + '/data'))
         .on('end', done);
     },
   }, done);
 })
 
 gulp.task('demo', ['build:demo'], function () {
-  gulp.watch(['lib/**/*', 'demo/!(build)/**/*.*', 'test/data/*.json'], ['build:demo']);
+  gulp.watch(config.watch, ['build:demo']);
 
-  return gulp.src('demo/build')
-    .pipe(webserver({ livereload: true }));
+  return gulp.src(config.dest)
+    .pipe(webserver(config.webserver));
 });
