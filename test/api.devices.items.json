@@ -7,7 +7,17 @@
     "icon": "1",
     "cluster": "Cluster XYZ",
     "region": "DFW1",
-    "status": "online"
+    "status": "online",
+    "htmlPre": {
+        "nick": "<span style='color:green'>",
+        "type": "<span style='color:orange'>",
+        "region": "<a href='javascript:alert(\"hi\")'>"
+    },
+    "htmlPost": {
+        "nick": "</span>",
+        "type": "</span>",
+        "region": "</a>"
+    }
   },
 
   {
@@ -18,7 +28,13 @@
     "icon": "2",
     "cluster": "Cluster ABC",
     "region": "SAT6",
-    "status": "online"
+    "status": "online",
+    "htmlPre": {
+        "nick": "<span style='color:red'>"
+    },
+    "htmlPost": {
+        "nick": "</span>"
+    }
   },
 
   {
