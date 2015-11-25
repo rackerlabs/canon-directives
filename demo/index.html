@@ -15,12 +15,16 @@
   <script type="application/javascript" src="https://eafdbc63c97ce6bec9ef-b0a668e5876bef6fe25684caf71db405.ssl.cf1.rackcdn.com/v1-latest/canon.min.js"></script>
   <script data-airbrake-project-id="115430" data-airbrake-project-key="e6a55ac2734fa6b4cb19816164f752d2" data-airbrake-environment-name="plnkr" src="https://s3-us-west-2.amazonaws.com/myrs/airbrake.js"></script>
 
+  <script type="application/javascript" src="../lib/scripts/ui-bootstrap-pagination.min.js"></script>
+  <script type="application/javascript" src="../lib/scripts/ui-bootstrap-pagination-tpls.min.js"></script>
+
   <script type="application/javascript" src="../lib/scripts/common.library.js"></script>
   <script type="application/javascript" src="../lib/scripts/service.table.data.js"></script>
   <script type="application/javascript" src="../lib/scripts/service.table.storage.js"></script>
   <script type="application/javascript" src="../lib/scripts/rs.facets.js"></script>
   <script type="application/javascript" src="../lib/scripts/rs.facets.sublist.js"></script>
   <script type="application/javascript" src="../lib/scripts/rs.data.grid.js"></script>
+  <script type="application/javascript" src="../lib/scripts/rs.pagination.js"></script>
 
   <script type="application/javascript" src="../lib/scripts/app.js"></script>
 </head>
@@ -91,9 +95,10 @@
               <h2>Dynamic Table Angular Component</h2>
               <p>An example of developing a reusable component in Angular that does these things:</p>
               <ul>
-                <li>Generates dynamic table headers (column names) based on data feeds</li>
+                <li>Generates dynamic table headers (column names) based on data feeds (in rs.data.grid.js change the var URLS)</li>
                 <li>Generates dynamic filters (facets) based on data feeds</li>
                 <li>Reports front-end errors to a hosted service on same or different domain (Airbrake.io).</li>
+                <li>TODO: <del>implement ALL checkbox</del>, reinstate "loading" event, <del>apply mutual filter dependency</del>, <del>fix Prev/Next</del>, <del>separate storage and data services into own modules</del>, <del>designate sortable columns</del>, <del>data paging</del>, ability to add links within data, <del>limit max count of sublist facets</del></li>
               </ul>
 
               <div ng-controller="parentAppController as parentCtlr">
