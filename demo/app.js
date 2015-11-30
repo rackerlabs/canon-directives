@@ -8,6 +8,7 @@
       "table.storage.service",
       "facets",
       "data.table",
+      "canon.exception.handler",
     ]);
   angular
     .module("app.thirdparty")
