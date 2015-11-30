@@ -2,7 +2,13 @@
   //This is how a third-party app would inject this resuable devices component
   //and would also need to reference the scripts in index.html
 
-  angular.module("app.thirdparty", ['common.library']);
+  angular
+    .module("app.thirdparty",
+    [
+      "table.storage.service",
+      "facets",
+      "data.table",
+    ]);
   angular
     .module("app.thirdparty")
     .controller("parentAppController", parentAppController);
