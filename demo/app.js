@@ -7,7 +7,7 @@
     [
       "table.storage.service",
       "facets",
-      "data.table",
+      "canon.table",
       "canon.exception.handler",
     ]);
   angular
