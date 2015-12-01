@@ -1,4 +1,4 @@
-var src = './lib';
+var src = './src';
 var dest = './dist';
 var demo = './demo';
 var tests = './test';

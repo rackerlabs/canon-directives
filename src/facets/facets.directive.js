@@ -11,7 +11,7 @@
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: 'templates/rs.facets.html',
+      templateUrl: 'templates/facets.tpl.html',
       link: function(scope, element, attrs, controller) {
         scope.allchecked = true;
         scope.$watch(function() {

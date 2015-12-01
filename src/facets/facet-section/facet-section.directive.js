@@ -11,7 +11,7 @@
     return {
       restrict: 'E',
       require: ['canonFacetSection','^canonFacets'],
-      templateUrl: '../src/facets/facet-section/facet-sublist.tpl.html',
+      templateUrl: 'templates/facet-sublist.tpl.html',
       link: function(scope, element, attrs, controller) {
           scope.facet = angular.fromJson(attrs.facet);
           scope.$watch(function() { //refresh sublists when current items change
