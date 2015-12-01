@@ -28,7 +28,7 @@ module.exports = {
     src: tests +'/**/*.js'
   },
   jshint: {
-    src: src + '/scripts',
+    src: src,
     jshintrc: {
       //lint options taken from John Papa's AngularJs Style Guide
       //https://github.com/johnpapa/angular-styleguide#js-hint
