@@ -1,24 +1,27 @@
 (function() {
   'use strict';
 
-  var app = angular.module("service.table.data", ["service.table.storage"]);
-  
-  angular.module("service.table.data").factory("gridDataService", gridDataService);
-  gridDataService.$inject = ['$http', '$q', 'alerting'];
+  angular
+  .module("table.data.service")
+  .factory("tableDataService", tableDataService)
 
-  function gridDataService($http, $q, alerting) {
-    var URLS = {ITEMS: "data/api.devices.items.json", COGS: "data/api.devices.cogs.json", FACETS: "data/api.devices.facets.json"};
+  tableDataService.$inject = ['$http', '$q', 'alertingFactory'];
+
+  function tableDataService($http, $q, alertingFactory) {
+    var URLS = {ITEMS: "/demo/api.devices.items.json", COGS: "/demo/api.devices.cogs.json", FACETS: "/demo/api.devices.facets.json"};
     //var URLS = {ITEMS: "../test/api.tickets.items.json", COGS: "", FACETS: "../test/api.tickets.facets.json"};
-
-    return {
+    var service = {
       syncDataRequests: syncDataRequests
     };
+
+    return service;
 
     function gridGetData(url) {
       return $http.get(url)
         .then(function(response){ return response.data })
-        .catch(alerting.errorHandler('Failed to load data for rsDataGrid, endpoint: ' + url)); //catches javascript errors
+        .catch(alertingFactory.errorHandler('Failed to load data for rsDataGrid, endpoint: ' + url)); //catches javascript errors
     }
+
     function gridGetItems() {
       return gridGetData(URLS.ITEMS);
     }
@@ -38,15 +41,15 @@
     }
 
     /*Because the table uses the facets data to build the dynamic column headers, the facets request must be sync here as well*/
-    function syncDataRequests() { 
+    function syncDataRequests() {
       return $q.all([gridGetItems(), gridGetCogs(), gridGetFacets()]).then(function(resultArray) { //wait for all requests to complete
         return mergeData(resultArray);
       });
     }
 
     function mergeData(resultArray) { //merges items, cogs, and facets into one object
-      var tempItems = resultArray[0]; 
-      var tempCogs = resultArray[1]; 
+      var tempItems = resultArray[0];
+      var tempCogs = resultArray[1];
       var tempFacets = resultArray[2];
       _.map(tempItems, function(item, index, list) {
         try {
@@ -58,6 +61,5 @@
       tempItems = _.shuffle(tempItems); //simulated random data, remove shuffle for production
       return {"facets": tempFacets, "items": tempItems};
     }
-
   }
 }());
