@@ -1,7 +1,6 @@
 var src = './src';
 var dest = './dist';
 var demo = './demo';
-var tests = './test';
 
 module.exports = {
   build: { 
@@ -21,9 +20,6 @@ module.exports = {
     webserver: {
       livereload: true
     }
-  },
-  tests: {
-    src: tests +'/**/*.js'
   },
   jshint: {
     src: src
