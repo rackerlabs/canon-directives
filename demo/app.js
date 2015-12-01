@@ -6,7 +6,7 @@
     .module("app.thirdparty",
     [
       "table.storage.service",
-      "facets",
+      "canon.facets",
       "canon.table",
       "canon.exception.handler",
     ]);
