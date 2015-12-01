@@ -1,0 +1,20 @@
+{
+  "name": "canon-directives",
+  "version": "1.0.0",
+  "description": "Reusable angular directives around the canon design pattern",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rackerlabs/canon-directives.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rackerlabs/canon-directives/issues"
+  },
+  "homepage": "https://github.com/rackerlabs/canon-directives#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}

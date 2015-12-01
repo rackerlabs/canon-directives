@@ -1,25 +1,27 @@
 (function() {
   'use strict';
 
-  var app = angular.module("rs.facets", ["rs.facets.sublist"]);
-  var appmodule = angular.module("rs.facets");
+  angular
+    .module("canon.facets")
+    .directive("canonFacets", canonFacets);
 
-  /****** Facets Directive ******/
-  var rsFacets = function(storageService) {
+    canonFacets.$inject = ['storageService'];
+
+  function canonFacets(storageService) {
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: '../lib/templates/rs.facets.html',
+      templateUrl: '../src/facets/facets.tpl.html',
       link: function(scope, element, attrs, controller) {
         scope.allchecked = true;
         scope.$watch(function() {
-          return storageService.rsDataSet.getFacets();
+          return storageService.getFacets();
         }, function() {
-          scope.facets = storageService.rsDataSet.getFacets();
+          scope.facets = storageService.getFacets();
         });
         scope.clickAll = function(bShow) {
           if (bShow) {
-            
+
           }
           console.log('bShow: ',bShow);
         }
@@ -32,8 +34,5 @@
       },
       controllerAs: 'vm'
     };
-  };
-  appmodule.directive("rsFacets", rsFacets);
-  /****** End Facets Directive ******/
-
+  }
 }());
