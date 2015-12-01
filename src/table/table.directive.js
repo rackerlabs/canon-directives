@@ -9,7 +9,7 @@
   function canonTable(storageService) {
     return {
       restrict: 'E',
-      templateUrl: 'facets/table.tpl.html',
+      templateUrl: 'templates/table.tpl.html',
       scope: {},
       controller: function( $scope, storageService ) {
         // $scope.currentItems = storageService.getCurrentItems();

@@ -11,14 +11,12 @@ module.exports = {
   demo: {
     src: {
       demo: demo,
-      build: dest,
-      data: tests + '/data'
+      build: dest
     },
     dest: demo + '/build',
     watch: [
       src + '/**/*',
-      demo + '/!(build)/**/*.*',
-      tests + '/data/*.json'
+      demo + '/!(build)/**/*.*'
     ],
     webserver: {
       livereload: true

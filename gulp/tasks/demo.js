@@ -4,9 +4,9 @@ var gulp = require('gulp'),
     config = require('../config').demo;
 
 gulp.task('build:demo', ['build'], function(done) {
-  async.parallel({
+  async.series({
     demoFiles: function (done) {
-      gulp.src(config.src.demo + '/*.*')
+      gulp.src([config.src.demo + '/*.*', config.src.demo + '/!(build)/**/*'])
         .pipe(gulp.dest(config.dest))
         .on('end', done);
     },
@@ -14,12 +14,7 @@ gulp.task('build:demo', ['build'], function(done) {
       gulp.src(config.src.build + '/**/*')
         .pipe(gulp.dest(config.dest))
         .on('end', done);
-    },
-    dataFiles: function (done) {
-      gulp.src(config.src.data + '/*.json')
-        .pipe(gulp.dest(config.dest + '/data'))
-        .on('end', done);
-    },
+    }
   }, done);
 })
 
