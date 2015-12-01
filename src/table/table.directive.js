@@ -9,7 +9,7 @@
   function canonTable(storageService) {
     return {
       restrict: 'E',
-      templateUrl: '../lib/templates/rs.data.grid.html',
+      templateUrl: '../src/table/table.tpl.html',
       scope: {},
       controller: function( $scope, storageService ) {
         // $scope.currentItems = storageService.getCurrentItems();
