@@ -8,8 +8,7 @@
   tableDataService.$inject = ['$http', '$q', 'alertingFactory'];
 
   function tableDataService($http, $q, alertingFactory) {
-    var URLS = {ITEMS: "/demo/api.devices.items.json", COGS: "/demo/api.devices.cogs.json", FACETS: "/demo/api.devices.facets.json"};
-    //var URLS = {ITEMS: "../test/api.tickets.items.json", COGS: "", FACETS: "../test/api.tickets.facets.json"};
+    var URLS = {ITEMS: "data/api.devices.items.json", COGS: "data/api.devices.cogs.json", FACETS: "data/api.devices.facets.json"};
     var service = {
       syncDataRequests: syncDataRequests
     };
