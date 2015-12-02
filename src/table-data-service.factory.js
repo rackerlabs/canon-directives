@@ -5,10 +5,10 @@
   .module("table.data.service")
   .factory("tableDataService", tableDataService)
 
-  tableDataService.$inject = ['$http', '$q', 'alertingFactory'];
+  tableDataService.$inject = ['$http', '$q', 'alertingFactory', 'URLS'];
 
-  function tableDataService($http, $q, alertingFactory) {
-    var URLS = {ITEMS: "data/api.devices.items.json", COGS: "data/api.devices.cogs.json", FACETS: "data/api.devices.facets.json"};
+  function tableDataService($http, $q, alertingFactory, URLS) {
+    // var URLS = {ITEMS: "data/api.devices.items.json", COGS: "data/api.devices.cogs.json", FACETS: "data/api.devices.facets.json"};
     var service = {
       syncDataRequests: syncDataRequests
     };

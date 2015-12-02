@@ -10,8 +10,13 @@
   function facetSectionController(storageService) {
     var vm = this;
     vm.groupedFacets = null;
+    // functions
+    vm.getFacetSublist = getFacetSublist;
+    vm.clickFacet = clickFacet;
+    vm.facetGroupChecked = facetGroupChecked;
+    vm.resetFacetCheckboxes = resetFacetCheckboxes;
 
-    vm.getFacetSublist = function(facet) {
+    function getFacetSublist(facet) {
       var sublist = null;
       if (facet.property!=='all') {
           var items = storageService.getCurrentItems();
@@ -21,35 +26,42 @@
       }
       return sublist;
     }
-    vm.clickFacet = function(property, key, bChecked) {
-      vm[property] = bChecked;
-      vm[property+'key'] = key;
+
+    function clickFacet(property, key, bChecked) {
       buildFilter(property, key, bChecked);
-      applyFilter(storageService.filterCriteria);
+      applyFilter();
+      if (_.isEmpty(storageService.filterCriteria)) {
+        storageService.allchecked = true;
+      } else {
+        storageService.allchecked = false;
+      }
     }
-    vm.facetGroupChecked = function(property, key) {
+
+    function facetGroupChecked(property, key) {
       return (vm[property] && vm[property+'key']!=key);
     }
-    vm.resetFacetCheckboxes = function(facets) {
+
+    function resetFacetCheckboxes(facets) {
       _.each(facets, function(obj, index, list) {
         vm[obj.property] = false;
         console.log('obj: ', obj, ' property: ', obj.property);
       });
     }
-    var sortCriteria = function(key, index, list) {
+
+    function sortCriteria(key, index, list) {
       return -(vm.groupedFacets[key].length);
     }
-    var buildFilter = function(property, key, bChecked) {
+
+    function buildFilter(property, key, bChecked) {
       if (bChecked) {
-        console.log(storageService);
-        console.log(storageService.filterCriteria);
         storageService.filterCriteria[property] = key;
       } else {
         storageService.filterCriteria = _.omit(storageService.filterCriteria, property);
       }
     }
-    var applyFilter = function(pFilter) {
-      storageService.setCurrentItems(_.where(storageService.getMasterData().items,pFilter));
+
+    function applyFilter() {
+      storageService.setCurrentItems(_.where(storageService.getMasterData().items, storageService.filterCriteria));
     }
   }
 }());

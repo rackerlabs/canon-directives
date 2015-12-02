@@ -4,10 +4,20 @@
     "name": "My Cloud Server 1",
     "nick": "Nickname 1",
     "type": "Firewall - Cisco PIX",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/firewall.png",
+    "icon": "1",
     "cluster": "Cluster XYZ",
     "region": "DFW1",
-    "status": "online"
+    "status": "online",
+    "htmlPre": {
+        "nick": "<span style='color:green'>",
+        "type": "<span style='color:orange'>",
+        "region": "<a href='javascript:alert(\"hi\")'>"
+    },
+    "htmlPost": {
+        "nick": "</span>",
+        "type": "</span>",
+        "region": "</a>"
+    }
   },
 
   {
@@ -15,10 +25,16 @@
     "name": "My Cloud Server 2",
     "nick": "Nickname 2",
     "type": "DELL PowerEdge R900 Hypervisor",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/switch.png",
+    "icon": "2",
     "cluster": "Cluster ABC",
     "region": "SAT6",
-    "status": "online"
+    "status": "online",
+    "htmlPre": {
+        "nick": "<span style='color:red'>"
+    },
+    "htmlPost": {
+        "nick": "</span>"
+    }
   },
 
   {
@@ -26,7 +42,7 @@
     "name": "My Cloud Server 3",
     "nick": "Nickname 3",
     "type": "Switch",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/switch.png",
+    "icon": "3",
     "cluster": "Cluster MNP",
     "region": "DFW1",
     "status": "online"
@@ -37,7 +53,7 @@
     "name": "My Cloud Server 4",
     "nick": "Nickname 4",
     "type": "Virtual Machine Linux",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/virtual-machine.png",
+    "icon": "4",
     "cluster": "Cluster MNP",
     "region": "DFW1",
     "status": "online"
@@ -48,7 +64,7 @@
     "name": "My Cloud Server 5",
     "nick": "Nickname 5",
     "type": "Virtual Machine WIN2K3 (x64)",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/san.png",
+    "icon": "5",
     "cluster": "Cluster XYZ",
     "region": "DFW1",
     "status": "online"
@@ -59,7 +75,7 @@
     "name": "My Cloud Server 6",
     "nick": "Nickname 6",
     "type": "Virtual Machine Unsupported",
-    "icon": "https://fcc17225003f0eaba333-c0b791c59f5f0d6af7118a3e3fb610ed.ssl.cf2.rackcdn.com/images/common/devices/server.png",
+    "icon": "5",
     "cluster": "Cluster ABC",
     "region": "SAT6",
     "status": "online"
@@ -70,7 +86,7 @@
     "name": "My Cloud Server 7",
     "nick": "Nickname 7",
     "type": "Managed Storage",
-    "icon": "https://0ffddf3700fca63d7eee-f2158e9965ca1e4dc7433839c207ae5c.ssl.cf1.rackcdn.com/site_media/images/distros/windows-20x20.png",
+    "icon": "6",
     "cluster": "Cluster ABC",
     "region": "ORD1",
     "status": "online"
@@ -81,7 +97,7 @@
     "name": "My Cloud Server 8",
     "nick": "Nickname 8",
     "type": "DELL PowerEdge 2850 WIN2K3",
-    "icon": "https://0ffddf3700fca63d7eee-f2158e9965ca1e4dc7433839c207ae5c.ssl.cf1.rackcdn.com/site_media/images/distros/windows-20x20.png",
+    "icon": "1",
     "cluster": "Cluster MNP",
     "region": "ORD1",
     "status": "offline"
@@ -92,7 +108,7 @@
     "name": "My Cloud Server 9",
     "nick": "Nickname 9",
     "type": "Virtual Machine - WIN2K8 R2 Standard Edition (x64)",
-    "icon": "https://0ffddf3700fca63d7eee-f2158e9965ca1e4dc7433839c207ae5c.ssl.cf1.rackcdn.com/site_media/images/distros/ubuntu-20x20.png",
+    "icon": "1",
     "cluster": "Cluster HJK",
     "region": "DFW1",
     "status": "offline"

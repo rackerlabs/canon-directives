@@ -1,0 +1,2052 @@
+[
+	{
+		"id": "ITEM-1",
+		"name": "ultricies dignissim",
+		"nick": "rutrum",
+		"type": "PowerEdge Hypervisor",
+		"icon": "8",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online",
+	    "htmlPre": {
+	        "name": "<a href='javascript:alert(\"ultricies dignissim\")'>",
+	        "type": "<span style='color:orange'>",
+	        "region": "<a href='javascript:alert(\"SAT6\")'>"
+	    },
+	    "htmlPost": {
+	        "name": "</a>",
+	        "type": "</span>",
+	        "region": "</a>"
+	    }
+	},
+	{
+		"id": "ITEM-2",
+		"name": "nisi. Cum sociis",
+		"nick": "magna.",
+		"type": "Managed Storage",
+		"icon": "4",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline",
+	    "htmlPre": {
+	        "name": "<a href='javascript:alert(\"nisi. Cum sociis\")'>",
+	        "type": "<span style='color:red'>",
+	        "region": "<a href='javascript:alert(\"SAT6\")'>"
+	    },
+	    "htmlPost": {
+	        "name": "</a>",
+	        "type": "</span>",
+	        "region": "</a>"
+	    }
+	},
+	{
+		"id": "ITEM-3",
+		"name": "tincidunt dui augue",
+		"nick": "Nullam",
+		"type": "HP Hypervisor",
+		"icon": "8",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online",
+	    "htmlPre": {
+	        "name": "<a href='javascript:alert(\"tincidunt dui augue\")'>",
+	        "type": "<span style='color:red'>",
+	        "region": "<a href='javascript:alert(\"DFW1\")'>"
+	    },
+	    "htmlPost": {
+	        "name": "</a>",
+	        "type": "</span>",
+	        "region": "</a>"
+	    }
+	},
+	{
+		"id": "ITEM-4",
+		"name": "Integer mollis.",
+		"nick": "vitae erat",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online",
+	    "htmlPre": {
+	        "name": "<a href='javascript:alert(\"Integer mollis.\")'>",
+	        "type": "<span style='color:pink'>",
+	        "region": "<a href='javascript:alert(\"SAT6\")'>"
+	    },
+	    "htmlPost": {
+	        "name": "</a>",
+	        "type": "</span>",
+	        "region": "</a>"
+	    }
+	},
+	{
+		"id": "ITEM-5",
+		"name": "nulla.",
+		"nick": "luctus",
+		"type": "Firewall - Cisco ASA",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online",
+	    "htmlPre": {
+	        "name": "<a href='javascript:alert(\"nulla\")'>",
+	        "type": "<span style='color:orange'>",
+	        "region": "<a href='javascript:alert(\"ORD1\")'>"
+	    },
+	    "htmlPost": {
+	        "name": "</a>",
+	        "type": "</span>",
+	        "region": "</a>"
+	    }
+	},
+	{
+		"id": "ITEM-6",
+		"name": "nunc sed pede.",
+		"nick": "semper",
+		"type": "Firewall - Cisco PIX",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-7",
+		"name": "in magna.",
+		"nick": "metus",
+		"type": "Firewall - Cisco PIX",
+		"icon": "3",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-8",
+		"name": "malesuada vel,",
+		"nick": "natoque penatibus",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-9",
+		"name": "parturient",
+		"nick": "porttitor",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-10",
+		"name": "ut ipsum ac",
+		"nick": "metus",
+		"type": "Firewall - Cisco ASA",
+		"icon": "3",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-11",
+		"name": "felis, adipiscing",
+		"nick": "vulputate mauris",
+		"type": "Firewall - Cisco ASA",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-12",
+		"name": "tincidunt tempus risus.",
+		"nick": "Aenean massa.",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-13",
+		"name": "non, vestibulum nec,",
+		"nick": "mollis lectus",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-14",
+		"name": "lorem ac",
+		"nick": "mauris",
+		"type": "Virtual Machine",
+		"icon": "5",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-15",
+		"name": "accumsan",
+		"nick": "ridiculus mus.",
+		"type": "PowerEdge Hypervisor",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-16",
+		"name": "nunc sit",
+		"nick": "non",
+		"type": "Firewall - Cisco PIX",
+		"icon": "4",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-17",
+		"name": "velit. Sed malesuada",
+		"nick": "molestie tortor",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-18",
+		"name": "metus. In",
+		"nick": "sit amet",
+		"type": "Managed Storage",
+		"icon": "5",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-19",
+		"name": "dis parturient montes,",
+		"nick": "Integer",
+		"type": "Virtual Machine",
+		"icon": "2",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-20",
+		"name": "accumsan neque",
+		"nick": "dis parturient",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-21",
+		"name": "pharetra. Nam",
+		"nick": "massa. Suspendisse",
+		"type": "Firewall - Cisco PIX",
+		"icon": "5",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-22",
+		"name": "rutrum",
+		"nick": "quis, tristique",
+		"type": "Managed Storage",
+		"icon": "6",
+		"cluster": "RST",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-23",
+		"name": "varius et, euismod",
+		"nick": "dis",
+		"type": "HP Hypervisor",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-24",
+		"name": "sit amet,",
+		"nick": "sed",
+		"type": "HP Hypervisor",
+		"icon": "4",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-25",
+		"name": "amet",
+		"nick": "porttitor",
+		"type": "Managed Storage",
+		"icon": "2",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-26",
+		"name": "enim nec tempus",
+		"nick": "magna tellus",
+		"type": "PowerEdge Hypervisor",
+		"icon": "6",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-27",
+		"name": "luctus",
+		"nick": "fames",
+		"type": "Virtual Machine",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-28",
+		"name": "sit",
+		"nick": "ipsum porta",
+		"type": "Firewall - Cisco PIX",
+		"icon": "1",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-29",
+		"name": "Nam",
+		"nick": "sed,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-30",
+		"name": "est, congue a,",
+		"nick": "aliquam eros",
+		"type": "Firewall - Cisco ASA",
+		"icon": "5",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-31",
+		"name": "sit amet luctus",
+		"nick": "sed dictum",
+		"type": "Managed Storage",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-32",
+		"name": "ullamcorper viverra. Maecenas",
+		"nick": "fringilla",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-33",
+		"name": "pede, nonummy ut,",
+		"nick": "Fusce",
+		"type": "PowerEdge Hypervisor",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-34",
+		"name": "magnis dis parturient",
+		"nick": "molestie orci",
+		"type": "Firewall - Cisco PIX",
+		"icon": "3",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-35",
+		"name": "tincidunt orci",
+		"nick": "lobortis",
+		"type": "Managed Storage",
+		"icon": "4",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-36",
+		"name": "parturient montes,",
+		"nick": "condimentum",
+		"type": "Firewall - Cisco PIX",
+		"icon": "5",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-37",
+		"name": "elit. Curabitur sed",
+		"nick": "sociis",
+		"type": "Firewall - Cisco PIX",
+		"icon": "6",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-38",
+		"name": "nec",
+		"nick": "urna justo",
+		"type": "HP Hypervisor",
+		"icon": "0",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-39",
+		"name": "tristique",
+		"nick": "justo faucibus",
+		"type": "Managed Storage",
+		"icon": "0",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-40",
+		"name": "Proin mi.",
+		"nick": "Quisque imperdiet,",
+		"type": "PowerEdge Hypervisor",
+		"icon": "6",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-41",
+		"name": "imperdiet nec,",
+		"nick": "Aliquam",
+		"type": "Firewall - Cisco ASA",
+		"icon": "7",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-42",
+		"name": "mattis",
+		"nick": "pellentesque",
+		"type": "Virtual Machine",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-43",
+		"name": "luctus felis purus",
+		"nick": "odio. Nam",
+		"type": "HP Hypervisor",
+		"icon": "3",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-44",
+		"name": "non lorem",
+		"nick": "sem. Nulla",
+		"type": "HP Hypervisor",
+		"icon": "4",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-45",
+		"name": "dui,",
+		"nick": "lorem,",
+		"type": "HP Hypervisor",
+		"icon": "6",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-46",
+		"name": "ut ipsum ac",
+		"nick": "est",
+		"type": "Switch",
+		"icon": "2",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-47",
+		"name": "et malesuada",
+		"nick": "vitae, aliquet",
+		"type": "Firewall - Cisco ASA",
+		"icon": "3",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-48",
+		"name": "Donec est mauris,",
+		"nick": "at,",
+		"type": "HP Hypervisor",
+		"icon": "6",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-49",
+		"name": "dolor,",
+		"nick": "mollis.",
+		"type": "HP Hypervisor",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-50",
+		"name": "mi enim,",
+		"nick": "In ornare",
+		"type": "PowerEdge Hypervisor",
+		"icon": "2",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-51",
+		"name": "dolor dapibus gravida.",
+		"nick": "ante.",
+		"type": "Switch",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-52",
+		"name": "luctus",
+		"nick": "sit amet,",
+		"type": "Switch",
+		"icon": "6",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-53",
+		"name": "Pellentesque tincidunt",
+		"nick": "magna tellus",
+		"type": "Switch",
+		"icon": "2",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-54",
+		"name": "tortor. Nunc",
+		"nick": "ac",
+		"type": "Virtual Machine",
+		"icon": "3",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-55",
+		"name": "iaculis aliquet",
+		"nick": "arcu.",
+		"type": "HP Hypervisor",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-56",
+		"name": "nascetur ridiculus",
+		"nick": "a mi",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-57",
+		"name": "semper",
+		"nick": "gravida",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-58",
+		"name": "libero. Integer in",
+		"nick": "pede",
+		"type": "Firewall - Cisco PIX",
+		"icon": "2",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-59",
+		"name": "euismod",
+		"nick": "amet nulla.",
+		"type": "Virtual Machine",
+		"icon": "1",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-60",
+		"name": "faucibus orci luctus",
+		"nick": "felis eget",
+		"type": "Switch",
+		"icon": "3",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-61",
+		"name": "arcu eu",
+		"nick": "Suspendisse commodo",
+		"type": "Firewall - Cisco ASA",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-62",
+		"name": "eu metus. In",
+		"nick": "sit",
+		"type": "Firewall - Cisco PIX",
+		"icon": "1",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-63",
+		"name": "ante",
+		"nick": "in, tempus",
+		"type": "HP Hypervisor",
+		"icon": "0",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-64",
+		"name": "mauris id",
+		"nick": "tellus. Nunc",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-65",
+		"name": "Integer vulputate,",
+		"nick": "a, auctor",
+		"type": "Switch",
+		"icon": "6",
+		"cluster": "RST",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-66",
+		"name": "ante",
+		"nick": "magna",
+		"type": "HP Hypervisor",
+		"icon": "6",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-67",
+		"name": "iaculis nec,",
+		"nick": "facilisis. Suspendisse",
+		"type": "PowerEdge Hypervisor",
+		"icon": "4",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-68",
+		"name": "libero mauris,",
+		"nick": "dolor",
+		"type": "HP Hypervisor",
+		"icon": "4",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-69",
+		"name": "turpis egestas.",
+		"nick": "neque vitae",
+		"type": "PowerEdge Hypervisor",
+		"icon": "5",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-70",
+		"name": "ac",
+		"nick": "a,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-71",
+		"name": "tellus faucibus",
+		"nick": "mi",
+		"type": "Managed Storage",
+		"icon": "2",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-72",
+		"name": "nibh.",
+		"nick": "a",
+		"type": "HP Hypervisor",
+		"icon": "6",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-73",
+		"name": "tincidunt dui",
+		"nick": "Phasellus vitae",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-74",
+		"name": "et",
+		"nick": "a",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-75",
+		"name": "Mauris quis turpis",
+		"nick": "viverra.",
+		"type": "PowerEdge Hypervisor",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-76",
+		"name": "risus",
+		"nick": "ac",
+		"type": "HP Hypervisor",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-77",
+		"name": "convallis convallis",
+		"nick": "mattis. Cras",
+		"type": "Switch",
+		"icon": "4",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-78",
+		"name": "mattis. Integer",
+		"nick": "diam. Duis",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-79",
+		"name": "scelerisque dui.",
+		"nick": "erat. Etiam",
+		"type": "Switch",
+		"icon": "6",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-80",
+		"name": "pede",
+		"nick": "felis purus",
+		"type": "Managed Storage",
+		"icon": "2",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-81",
+		"name": "purus",
+		"nick": "dolor",
+		"type": "HP Hypervisor",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-82",
+		"name": "Quisque nonummy",
+		"nick": "sed",
+		"type": "Managed Storage",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-83",
+		"name": "tincidunt.",
+		"nick": "porttitor vulputate,",
+		"type": "Firewall - Cisco PIX",
+		"icon": "3",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-84",
+		"name": "magna tellus faucibus",
+		"nick": "amet",
+		"type": "Switch",
+		"icon": "3",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-85",
+		"name": "Nunc mauris sapien,",
+		"nick": "imperdiet dictum",
+		"type": "Switch",
+		"icon": "4",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-86",
+		"name": "aliquam eu, accumsan",
+		"nick": "lacus. Mauris",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-87",
+		"name": "molestie tellus. Aenean",
+		"nick": "augue",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-88",
+		"name": "tincidunt adipiscing. Mauris",
+		"nick": "orci,",
+		"type": "Managed Storage",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-89",
+		"name": "luctus",
+		"nick": "sollicitudin orci",
+		"type": "PowerEdge Hypervisor",
+		"icon": "4",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-90",
+		"name": "feugiat",
+		"nick": "Aliquam erat",
+		"type": "PowerEdge Hypervisor",
+		"icon": "2",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-91",
+		"name": "amet ornare lectus",
+		"nick": "Nunc",
+		"type": "Firewall - Cisco PIX",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-92",
+		"name": "eu arcu.",
+		"nick": "gravida. Praesent",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-93",
+		"name": "felis orci,",
+		"nick": "ultricies",
+		"type": "HP Hypervisor",
+		"icon": "2",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-94",
+		"name": "pretium",
+		"nick": "Aenean eget",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-95",
+		"name": "at sem molestie",
+		"nick": "faucibus.",
+		"type": "Switch",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-96",
+		"name": "Phasellus",
+		"nick": "leo",
+		"type": "Managed Storage",
+		"icon": "0",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-97",
+		"name": "libero mauris, aliquam",
+		"nick": "Aliquam",
+		"type": "PowerEdge Hypervisor",
+		"icon": "6",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-98",
+		"name": "justo eu arcu.",
+		"nick": "Cum sociis",
+		"type": "Firewall - Cisco PIX",
+		"icon": "0",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-99",
+		"name": "mollis vitae,",
+		"nick": "auctor velit.",
+		"type": "Managed Storage",
+		"icon": "8",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-100",
+		"name": "sed,",
+		"nick": "ultrices,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "3",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-101",
+		"name": "dolor sit amet,",
+		"nick": "laoreet lectus",
+		"type": "Managed Storage",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-102",
+		"name": "Curabitur",
+		"nick": "lobortis, nisi",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-103",
+		"name": "egestas blandit. Nam",
+		"nick": "molestie",
+		"type": "Firewall - Cisco PIX",
+		"icon": "6",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-104",
+		"name": "Phasellus libero",
+		"nick": "ac",
+		"type": "HP Hypervisor",
+		"icon": "2",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-105",
+		"name": "Cras vulputate velit",
+		"nick": "Sed eu",
+		"type": "Virtual Machine",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-106",
+		"name": "Aliquam",
+		"nick": "tempor",
+		"type": "PowerEdge Hypervisor",
+		"icon": "5",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-107",
+		"name": "amet ultricies sem",
+		"nick": "lorem",
+		"type": "Firewall - Cisco ASA",
+		"icon": "4",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-108",
+		"name": "sociis",
+		"nick": "blandit enim",
+		"type": "PowerEdge Hypervisor",
+		"icon": "0",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-109",
+		"name": "a feugiat tellus",
+		"nick": "nulla ante,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "8",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-110",
+		"name": "eros turpis",
+		"nick": "aliquet vel,",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-111",
+		"name": "dui lectus",
+		"nick": "ornare sagittis",
+		"type": "Virtual Machine",
+		"icon": "6",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-112",
+		"name": "vestibulum massa rutrum",
+		"nick": "in",
+		"type": "Virtual Machine",
+		"icon": "3",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-113",
+		"name": "Aenean sed pede",
+		"nick": "metus. Aenean",
+		"type": "Firewall - Cisco ASA",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-114",
+		"name": "eu sem.",
+		"nick": "malesuada. Integer",
+		"type": "Switch",
+		"icon": "3",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-115",
+		"name": "erat, in",
+		"nick": "Proin mi.",
+		"type": "Switch",
+		"icon": "7",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-116",
+		"name": "erat vel pede",
+		"nick": "Nullam scelerisque",
+		"type": "Virtual Machine",
+		"icon": "1",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-117",
+		"name": "metus. Aliquam erat",
+		"nick": "rutrum magna.",
+		"type": "Firewall - Cisco ASA",
+		"icon": "1",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-118",
+		"name": "luctus vulputate, nisi",
+		"nick": "lacus.",
+		"type": "Firewall - Cisco ASA",
+		"icon": "6",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-119",
+		"name": "Proin non",
+		"nick": "eget",
+		"type": "HP Hypervisor",
+		"icon": "5",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-120",
+		"name": "quam.",
+		"nick": "vel sapien",
+		"type": "Managed Storage",
+		"icon": "5",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-121",
+		"name": "Nunc ut",
+		"nick": "aliquet",
+		"type": "Firewall - Cisco PIX",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-122",
+		"name": "tempor erat",
+		"nick": "lacinia orci,",
+		"type": "Switch",
+		"icon": "1",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-123",
+		"name": "massa lobortis",
+		"nick": "nunc. In",
+		"type": "Virtual Machine",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-124",
+		"name": "Cras sed leo.",
+		"nick": "scelerisque",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-125",
+		"name": "pede. Cum sociis",
+		"nick": "eu elit.",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-126",
+		"name": "nec, eleifend non,",
+		"nick": "sit",
+		"type": "HP Hypervisor",
+		"icon": "2",
+		"cluster": "RST",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-127",
+		"name": "Sed",
+		"nick": "pede.",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-128",
+		"name": "semper. Nam tempor",
+		"nick": "congue turpis.",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-129",
+		"name": "lorem eu",
+		"nick": "neque. Nullam",
+		"type": "Virtual Machine",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-130",
+		"name": "at",
+		"nick": "aliquam, enim",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-131",
+		"name": "Aliquam fringilla cursus",
+		"nick": "Etiam",
+		"type": "PowerEdge Hypervisor",
+		"icon": "4",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-132",
+		"name": "mattis",
+		"nick": "fringilla",
+		"type": "Switch",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-133",
+		"name": "auctor",
+		"nick": "viverra. Donec",
+		"type": "Switch",
+		"icon": "7",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-134",
+		"name": "non, hendrerit",
+		"nick": "magna. Lorem",
+		"type": "PowerEdge Hypervisor",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-135",
+		"name": "imperdiet",
+		"nick": "Vivamus",
+		"type": "PowerEdge Hypervisor",
+		"icon": "0",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-136",
+		"name": "Maecenas",
+		"nick": "Proin",
+		"type": "Firewall - Cisco PIX",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-137",
+		"name": "dignissim tempor arcu.",
+		"nick": "ultrices iaculis",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-138",
+		"name": "Cras eget nisi",
+		"nick": "at",
+		"type": "Firewall - Cisco PIX",
+		"icon": "6",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-139",
+		"name": "dictum placerat, augue.",
+		"nick": "est, mollis",
+		"type": "Firewall - Cisco ASA",
+		"icon": "4",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-140",
+		"name": "tincidunt vehicula",
+		"nick": "ac metus",
+		"type": "HP Hypervisor",
+		"icon": "7",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-141",
+		"name": "nisl arcu iaculis",
+		"nick": "eu",
+		"type": "Firewall - Cisco PIX",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-142",
+		"name": "Pellentesque habitant morbi",
+		"nick": "sapien.",
+		"type": "PowerEdge Hypervisor",
+		"icon": "7",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-143",
+		"name": "ante blandit",
+		"nick": "feugiat",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-144",
+		"name": "nec orci. Donec",
+		"nick": "Suspendisse sagittis.",
+		"type": "HP Hypervisor",
+		"icon": "5",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-145",
+		"name": "orci. Ut sagittis",
+		"nick": "Quisque",
+		"type": "Firewall - Cisco ASA",
+		"icon": "2",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-146",
+		"name": "mauris sapien, cursus",
+		"nick": "molestie",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-147",
+		"name": "penatibus",
+		"nick": "ut,",
+		"type": "Switch",
+		"icon": "4",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-148",
+		"name": "tortor. Integer",
+		"nick": "urna. Nunc",
+		"type": "HP Hypervisor",
+		"icon": "4",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-149",
+		"name": "lacus pede sagittis",
+		"nick": "venenatis",
+		"type": "Managed Storage",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-150",
+		"name": "commodo tincidunt nibh.",
+		"nick": "pede. Nunc",
+		"type": "Switch",
+		"icon": "5",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-151",
+		"name": "nec urna et",
+		"nick": "ridiculus mus.",
+		"type": "Virtual Machine",
+		"icon": "2",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-152",
+		"name": "Curabitur",
+		"nick": "Pellentesque habitant",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-153",
+		"name": "id,",
+		"nick": "consectetuer",
+		"type": "Managed Storage",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-154",
+		"name": "hendrerit",
+		"nick": "sed",
+		"type": "PowerEdge Hypervisor",
+		"icon": "3",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-155",
+		"name": "diam.",
+		"nick": "montes, nascetur",
+		"type": "Switch",
+		"icon": "6",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-156",
+		"name": "mauris. Suspendisse aliquet",
+		"nick": "fermentum",
+		"type": "Switch",
+		"icon": "3",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-157",
+		"name": "amet",
+		"nick": "vel",
+		"type": "Switch",
+		"icon": "8",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-158",
+		"name": "gravida sit amet,",
+		"nick": "Sed congue,",
+		"type": "Switch",
+		"icon": "2",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-159",
+		"name": "In",
+		"nick": "Aliquam",
+		"type": "Virtual Machine",
+		"icon": "8",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-160",
+		"name": "ipsum nunc",
+		"nick": "nibh. Quisque",
+		"type": "Firewall - Cisco ASA",
+		"icon": "6",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-161",
+		"name": "nunc nulla",
+		"nick": "nonummy.",
+		"type": "PowerEdge Hypervisor",
+		"icon": "4",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-162",
+		"name": "ac,",
+		"nick": "Sed",
+		"type": "Virtual Machine",
+		"icon": "7",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-163",
+		"name": "quis",
+		"nick": "lectus ante",
+		"type": "Firewall - Cisco ASA",
+		"icon": "4",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-164",
+		"name": "ut quam",
+		"nick": "Nulla",
+		"type": "Switch",
+		"icon": "2",
+		"cluster": "XYZ",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-165",
+		"name": "aliquet libero.",
+		"nick": "Mauris vestibulum,",
+		"type": "Managed Storage",
+		"icon": "5",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-166",
+		"name": "vel, mauris.",
+		"nick": "eu tellus",
+		"type": "PowerEdge Hypervisor",
+		"icon": "3",
+		"cluster": "XYZ",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-167",
+		"name": "fringilla est.",
+		"nick": "Donec",
+		"type": "Firewall - Cisco ASA",
+		"icon": "7",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-168",
+		"name": "arcu. Aliquam",
+		"nick": "dictum eu,",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "MNP",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-169",
+		"name": "metus. Aenean",
+		"nick": "Ut tincidunt",
+		"type": "Virtual Machine",
+		"icon": "4",
+		"cluster": "MNP",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-170",
+		"name": "egestas, urna",
+		"nick": "arcu et",
+		"type": "Switch",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-171",
+		"name": "eu",
+		"nick": "tincidunt dui",
+		"type": "Managed Storage",
+		"icon": "3",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-172",
+		"name": "Mauris nulla. Integer",
+		"nick": "dui nec",
+		"type": "Firewall - Cisco PIX",
+		"icon": "7",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-173",
+		"name": "adipiscing lacus.",
+		"nick": "molestie sodales.",
+		"type": "Virtual Machine",
+		"icon": "0",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-174",
+		"name": "libero. Morbi accumsan",
+		"nick": "risus odio,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "4",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-175",
+		"name": "facilisis. Suspendisse",
+		"nick": "vel,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "1",
+		"cluster": "IJK",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-176",
+		"name": "et, eros.",
+		"nick": "nulla. In",
+		"type": "HP Hypervisor",
+		"icon": "1",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-177",
+		"name": "molestie.",
+		"nick": "et pede.",
+		"type": "HP Hypervisor",
+		"icon": "1",
+		"cluster": "RST",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-178",
+		"name": "nec metus facilisis",
+		"nick": "magna.",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-179",
+		"name": "nec, malesuada",
+		"nick": "sociosqu",
+		"type": "Managed Storage",
+		"icon": "3",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-180",
+		"name": "tellus. Aenean",
+		"nick": "convallis,",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "ABC",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-181",
+		"name": "erat semper rutrum.",
+		"nick": "In",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-182",
+		"name": "eget, dictum",
+		"nick": "mi fringilla",
+		"type": "Switch",
+		"icon": "2",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-183",
+		"name": "consequat purus. Maecenas",
+		"nick": "Integer vitae",
+		"type": "Firewall - Cisco ASA",
+		"icon": "1",
+		"cluster": "ABC",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-184",
+		"name": "risus. In",
+		"nick": "Pellentesque habitant",
+		"type": "HP Hypervisor",
+		"icon": "2",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-185",
+		"name": "dapibus ligula. Aliquam",
+		"nick": "nec urna",
+		"type": "Switch",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-186",
+		"name": "rhoncus.",
+		"nick": "sed, sapien.",
+		"type": "Virtual Machine",
+		"icon": "2",
+		"cluster": "ABC",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-187",
+		"name": "in",
+		"nick": "vitae,",
+		"type": "Managed Storage",
+		"icon": "1",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-188",
+		"name": "dui. Suspendisse",
+		"nick": "et, commodo",
+		"type": "Managed Storage",
+		"icon": "2",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-189",
+		"name": "orci. Ut",
+		"nick": "diam. Duis",
+		"type": "Firewall - Cisco ASA",
+		"icon": "6",
+		"cluster": "DEF",
+		"region": "ORD1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-190",
+		"name": "non magna. Nam",
+		"nick": "Curabitur",
+		"type": "PowerEdge Hypervisor",
+		"icon": "1",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-191",
+		"name": "augue id ante",
+		"nick": "ridiculus",
+		"type": "Firewall - Cisco PIX",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-192",
+		"name": "volutpat. Nulla facilisis.",
+		"nick": "facilisis facilisis,",
+		"type": "Managed Storage",
+		"icon": "8",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-193",
+		"name": "eleifend",
+		"nick": "semper",
+		"type": "HP Hypervisor",
+		"icon": "3",
+		"cluster": "RST",
+		"region": "SAT6",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-194",
+		"name": "cursus,",
+		"nick": "cursus",
+		"type": "Firewall - Cisco ASA",
+		"icon": "0",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	},
+	{
+		"id": "ITEM-195",
+		"name": "suscipit nonummy.",
+		"nick": "nec, imperdiet",
+		"type": "Managed Storage",
+		"icon": "4",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-196",
+		"name": "et ultrices posuere",
+		"nick": "urna.",
+		"type": "HP Hypervisor",
+		"icon": "5",
+		"cluster": "MNP",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-197",
+		"name": "est, mollis",
+		"nick": "risus.",
+		"type": "Firewall - Cisco ASA",
+		"icon": "3",
+		"cluster": "IJK",
+		"region": "DFW1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-198",
+		"name": "ut",
+		"nick": "sagittis augue,",
+		"type": "Managed Storage",
+		"icon": "7",
+		"cluster": "IJK",
+		"region": "SAT6",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-199",
+		"name": "tempus",
+		"nick": "non, sollicitudin",
+		"type": "HP Hypervisor",
+		"icon": "8",
+		"cluster": "XYZ",
+		"region": "ORD1",
+		"status": "offline"
+	},
+	{
+		"id": "ITEM-200",
+		"name": "lorem,",
+		"nick": "eleifend nec,",
+		"type": "Firewall - Cisco ASA",
+		"icon": "8",
+		"cluster": "DEF",
+		"region": "DFW1",
+		"status": "online"
+	}
+]

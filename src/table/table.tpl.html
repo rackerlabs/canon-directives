@@ -2,23 +2,24 @@
   <a class="rs-btn rs-btn-primary" ng-click="vm.getGridData(true)">
     &lt; Previous</a> <a class="rs-btn rs-btn-primary" ng-click="vm.getGridData(true)" class="pull-right">Next &gt;</a>
 </canon-button-group>
-
+<!-- <rs-pagination items-per-page="itemsPerPage" current-page="currentPage"></rs-pagination> -->
 <table class="myrs-datagrid">
   <thead>
     <tr>
-      <th class="col-right" style="width: 20px"></th>
-      <th ng-repeat="facet in facets" ng-if="facet.ongrid">{{facet.label}}</th>
+      <th class="col-right" style="width: 20px"><a></a></th>
+      <th ng-repeat="facet in facets" ng-if="facet.ongrid"><a ng-click="vm.orderByField=facet.property; vm.reverseSort=!vm.reverseSort">{{facet.label}}</a></th>
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="item in currentItems">
+    <tr ng-repeat="item in currentItems.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) | orderBy:vm.orderByField:vm.reverseSort">
       <td class="rs-table-cog">
-        <canon-cog cogitems="item.cogitems" ng-show="item.cogitems"></canon-cog>
+        <rs-cog cogitems="item.cogitems" ng-show="item.cogitems"></rs-cog>
       </td>
       <td ng-repeat="facet in facets" ng-if="facet.ongrid">
-      	<span ng-if="facet.type==='text'">{{item[facet.property]}}</span>
-      	<img ng-if="facet.type==='image'" ng-src="{{item[facet.property]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
+      	<span ng-if="facet.type==='text'" ng-bind-html="vm.trustAsHtml(item.htmlPre[facet.property] + item[facet.property] + item.htmlPost[facet.property])"></span>
+      	<img ng-if="facet.type==='image'" ng-src="{{ICONS[item[facet.property]]}}" width="16" height="16" alt="" class="myrs-tooltip-nowrap">
       </td>
     </tr>
   </tbody>
 </table>
+<!-- <rs-pagination items-per-page="itemsPerPage" current-page="currentPage"></rs-pagination> -->

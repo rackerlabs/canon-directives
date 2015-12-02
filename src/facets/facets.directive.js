@@ -13,25 +13,19 @@
       scope: {},
       templateUrl: 'templates/facets.tpl.html',
       link: function(scope, element, attrs, controller) {
-        scope.allchecked = true;
         scope.$watch(function() {
           return storageService.getFacets();
         }, function() {
           scope.facets = storageService.getFacets();
         });
-        scope.clickAll = function(bShow) {
-          if (bShow) {
-
-          }
-          console.log('bShow: ',bShow);
-        }
+        scope.$watch(function() {
+          return storageService.allchecked;
+        }, function() {
+          controller.allchecked = storageService.allchecked;
+          controller.allchecked = storageService.allchecked;
+        });
       },
-      controller: function() {
-        var vm = this;
-        vm.clickAll = function(bShow) {
-          console.log('bShow2: ',bShow);
-        }
-      },
+      controller: 'canonFacetsController',
       controllerAs: 'vm'
     };
   }

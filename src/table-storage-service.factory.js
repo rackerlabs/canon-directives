@@ -21,7 +21,8 @@
         setCurrentItems: setCurrentItems,
         getFacets: getFacets,
         setFacets: setFacets,
-        filterCriteria: filterCriteria
+        filterCriteria: filterCriteria,
+        requestNewData: requestNewData
       };
 
       return service;
@@ -53,6 +54,14 @@
 
       function setFacets(pItems) {
         facets = pItems;
+      }
+
+      function requestNewData() {
+        requestData(true).then(function(data) {
+          setMasterData(data);
+          setCurrentItems(data.items);
+          setFacets(data.facets);
+        });
       }
     }
 }());
