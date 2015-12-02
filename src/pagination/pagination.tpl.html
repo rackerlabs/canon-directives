@@ -1,2 +1,3 @@
-<uib-pagination total-items="totalItems" ng-model="currentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" rotate="false" num-pages="numPages" items-per-page="itemsPerPage"></uib-pagination>
+<uib-pagination total-items="totalItems" ng-model="currentPage" max-size="maxSize" class="pagination-sm" boundary-links="true" rotate="false" num-pages="numPages" items-per-page="itemsPerPage">
+</uib-pagination>
 <pre>Page: {{currentPage}} / {{numPages}} &nbsp;&nbsp; View <select ng-model="itemsPerPage" ng-change="currentPage=1" ng-options="opt as opt for opt in viewby"></select> records at a time.</pre>

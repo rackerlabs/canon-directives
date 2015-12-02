@@ -11,10 +11,12 @@
       var masterData = null,
           currentItems = null,
           facets = null,
+          allchecked = true,
           filterCriteria = {};
 
       var service = {
         requestData: requestData,
+        allchecked: allchecked,
         getMasterData: getMasterData,
         setMasterData: setMasterData,
         getCurrentItems: getCurrentItems,
@@ -24,6 +26,7 @@
         filterCriteria: filterCriteria,
         requestNewData: requestNewData
       };
+      console.log(service.allchecked);
 
       return service;
 

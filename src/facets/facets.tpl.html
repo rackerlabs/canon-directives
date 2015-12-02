@@ -3,7 +3,7 @@
 		<h3>
     		<input type="checkbox" ng-if="facet.property==='all'" ng-model="vm.allchecked" ng-change="vm.clickAll(vm.allchecked)" ng-disabled="vm.allchecked"/>
     		{{facet.label}}
-    		<rs-facets-sublist facet="{{facet}}"></rs-facets-sublist>
+    		<canon-facet-section facet="{{facet}}"></canon-facet-section>
     	</h3>
     </div>
 </div>

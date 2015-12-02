@@ -11,8 +11,12 @@
     return {
       restrict: 'E',
       scope: {},
+      require: 'canonFacets',
       templateUrl: 'templates/facets.tpl.html',
+      controller: 'canonFacetsController',
+      controllerAs: 'vm',
       link: function(scope, element, attrs, controller) {
+        scope.allchecked = true;
         scope.$watch(function() {
           return storageService.getFacets();
         }, function() {
@@ -22,11 +26,9 @@
           return storageService.allchecked;
         }, function() {
           controller.allchecked = storageService.allchecked;
-          controller.allchecked = storageService.allchecked;
         });
       },
-      controller: 'canonFacetsController',
-      controllerAs: 'vm'
+
     };
   }
 }());
