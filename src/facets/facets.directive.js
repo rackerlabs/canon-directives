@@ -11,7 +11,10 @@
     return {
       restrict: 'E',
       scope: {},
+      require: 'canonFacets',
       templateUrl: 'templates/facets.tpl.html',
+      controller: 'canonFacetsController',
+      controllerAs: 'vm',
       link: function(scope, element, attrs, controller) {
         scope.allchecked = true;
         scope.$watch(function() {
@@ -19,20 +22,13 @@
         }, function() {
           scope.facets = storageService.getFacets();
         });
-        scope.clickAll = function(bShow) {
-          if (bShow) {
+        scope.$watch(function() {
+          return storageService.allchecked;
+        }, function() {
+          controller.allchecked = storageService.allchecked;
+        });
+      },
 
-          }
-          console.log('bShow: ',bShow);
-        }
-      },
-      controller: function() {
-        var vm = this;
-        vm.clickAll = function(bShow) {
-          console.log('bShow2: ',bShow);
-        }
-      },
-      controllerAs: 'vm'
     };
   }
 }());

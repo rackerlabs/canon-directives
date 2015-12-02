@@ -5,24 +5,26 @@
   .module('canon.facet.section')
   .directive("canonFacetSection", canonFacetSection)
 
-  canonFacetSection.$inject = ['storageService'];
+  canonFacetSection.$inject = ['storageService', 'ICONS'];
 
-  function canonFacetSection(storageService) {
+  function canonFacetSection(storageService, ICONS) {
     return {
       restrict: 'E',
-      require: ['canonFacetSection','^canonFacets'],
+      scope: {},
+      require: 'canonFacetSection',
       templateUrl: 'templates/facet-sublist.tpl.html',
-      link: function(scope, element, attrs, controller) {
-          scope.facet = angular.fromJson(attrs.facet);
-          scope.$watch(function() { //refresh sublists when current items change
-            return storageService.getCurrentItems();
-          }, function() {
-            scope.sublist = controller[0].getFacetSublist(scope.facet);
-
-          });
-      },
       controller: 'facetSectionController',
-      controllerAs: 'vm'
+      controllerAs: 'vm',
+      link: function(scope, element, attrs, controller) {
+        console.log(controller);
+        scope.ICONS = ICONS;
+        scope.facet = angular.fromJson(attrs.facet);
+        scope.$watch(function() { //refresh sublists when current items change
+          return storageService.getCurrentItems();
+        }, function() {
+          scope.sublist = controller.getFacetSublist(scope.facet);
+        });
+      },
     };
   }
 

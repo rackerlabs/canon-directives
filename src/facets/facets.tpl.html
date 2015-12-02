@@ -1,7 +1,7 @@
 <div class="facets-section">
 	<div ng-repeat="facet in facets" ng-if="facet.onfacets">
 		<h3>
-    		<input type="checkbox" ng-if="facet.property==='all'" ng-model="allchecked" ng-change="clickAll(allchecked)"/>
+    		<input type="checkbox" ng-if="facet.property==='all'" ng-model="vm.allchecked" ng-change="vm.clickAll(vm.allchecked)" ng-disabled="vm.allchecked"/>
     		{{facet.label}}
     		<canon-facet-section facet="{{facet}}"></canon-facet-section>
     	</h3>

@@ -11,18 +11,22 @@
       var masterData = null,
           currentItems = null,
           facets = null,
+          allchecked = true,
           filterCriteria = {};
 
       var service = {
         requestData: requestData,
+        allchecked: allchecked,
         getMasterData: getMasterData,
         setMasterData: setMasterData,
         getCurrentItems: getCurrentItems,
         setCurrentItems: setCurrentItems,
         getFacets: getFacets,
         setFacets: setFacets,
-        filterCriteria: filterCriteria
+        filterCriteria: filterCriteria,
+        requestNewData: requestNewData
       };
+      console.log(service.allchecked);
 
       return service;
 
@@ -53,6 +57,14 @@
 
       function setFacets(pItems) {
         facets = pItems;
+      }
+
+      function requestNewData() {
+        requestData(true).then(function(data) {
+          setMasterData(data);
+          setCurrentItems(data.items);
+          setFacets(data.facets);
+        });
       }
     }
 }());
