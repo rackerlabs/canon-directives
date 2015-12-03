@@ -5,7 +5,7 @@ var demo = './demo';
 module.exports = {
   build: { 
     src: src,
-    deps: './node_modules'
+    deps: './node_modules',
     dest: dest
   },
   demo: {
