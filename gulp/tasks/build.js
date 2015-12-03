@@ -7,7 +7,9 @@ var gulp = require('gulp'),
 gulp.task('build', function(done) {
   async.parallel({
     scripts: function (done) {
-      gulp.src([config.src + '/**/*.module.js', config.src + '/**/*.js'])
+      gulp.src([config.deps + '/angular-ui-bootstrap/ui-bootstrap-tpls.min.js',
+                config.src + '/**/*.module.js',
+                config.src + '/**/*.js'])
         .pipe(concat('canon-directives.js'))
         .pipe(gulp.dest(config.dest))
         .on('end', done);
