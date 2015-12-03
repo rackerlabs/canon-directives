@@ -18,9 +18,9 @@
   		  link: function(scope, element, attrs, controller) {
   		  	scope.maxSize = 10; //max buttons to show
   		    scope.$watch(function() {
-  		      return storageService.getCurrentItems();
+  		      return storageService.getObject('currentItems');
   		    }, function() {
-  		      scope.totalItems = storageService.getCurrentItems().length;
+  		      scope.totalItems = storageService.getObject('currentItems').length;
   		    });
   			scope.viewby = VIEWBY;
   		  }

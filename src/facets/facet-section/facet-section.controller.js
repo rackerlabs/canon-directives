@@ -14,12 +14,11 @@
     vm.getFacetSublist = getFacetSublist;
     vm.clickFacet = clickFacet;
     vm.facetGroupChecked = facetGroupChecked;
-    vm.resetFacetCheckboxes = resetFacetCheckboxes;
 
     function getFacetSublist(facet) {
       var sublist = null;
       if (facet.property!=='all') {
-          var items = storageService.getCurrentItems();
+          var items = storageService.getObject('currentItems');
           vm.groupedFacets = _.groupBy(items, facet.property);
           sublist   = _.keys( vm.groupedFacets );
           sublist = _.sortBy(sublist, sortCriteria);
@@ -30,10 +29,10 @@
     function clickFacet(property, key, bChecked) {
       buildFilter(property, key, bChecked);
       applyFilter();
-      if (_.isEmpty(storageService.filterCriteria)) {
-        storageService.allchecked = true;
+      if (_.isEmpty(storageService.getObject('filterCriteria'))) {
+        storageService.setObject('allchecked', true);
       } else {
-        storageService.allchecked = false;
+        storageService.setObject('allchecked', false);
       }
     }
 
@@ -41,27 +40,23 @@
       return (vm[property] && vm[property+'key']!=key);
     }
 
-    function resetFacetCheckboxes(facets) {
-      _.each(facets, function(obj, index, list) {
-        vm[obj.property] = false;
-        console.log('obj: ', obj, ' property: ', obj.property);
-      });
-    }
-
     function sortCriteria(key, index, list) {
       return -(vm.groupedFacets[key].length);
     }
 
     function buildFilter(property, key, bChecked) {
+      var tempObj = storageService.getObject('filterCriteria');
       if (bChecked) {
-        storageService.filterCriteria[property] = key;
+        tempObj[property] = key;
+        storageService.setObject('filterCriteria', tempObj);
       } else {
-        storageService.filterCriteria = _.omit(storageService.filterCriteria, property);
+        tempObj = _.omit(tempObj, property);
+        storageService.setObject('filterCriteria', tempObj);
       }
     }
 
     function applyFilter() {
-      storageService.setCurrentItems(_.where(storageService.getMasterData().items, storageService.filterCriteria));
+      storageService.setObject('currentItems', _.where(storageService.getObject('masterData').items, storageService.getObject('filterCriteria')));
     }
   }
 }());

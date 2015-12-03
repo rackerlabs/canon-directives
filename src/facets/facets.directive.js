@@ -17,15 +17,17 @@
       controllerAs: 'vm',
       link: function(scope, element, attrs, controller) {
         scope.allchecked = true;
+        storageService.setObject('allchecked', true);
+        storageService.setObject('filterCriteria', {});
         scope.$watch(function() {
-          return storageService.getFacets();
+          return storageService.getObject('facets');
         }, function() {
-          scope.facets = storageService.getFacets();
+          scope.facets = storageService.getObject('facets');
         });
         scope.$watch(function() {
-          return storageService.allchecked;
+          return storageService.getObject('allchecked');
         }, function() {
-          controller.allchecked = storageService.allchecked;
+          controller.allchecked = storageService.getObject('allchecked');
         });
       },
 
