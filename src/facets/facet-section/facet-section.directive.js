@@ -20,7 +20,7 @@
         scope.ICONS = ICONS;
         scope.facet = angular.fromJson(attrs.facet);
         scope.$watch(function() { //refresh sublists when current items change
-          return storageService.getCurrentItems();
+          return storageService.getObject('currentItems');
         }, function() {
           scope.sublist = controller.getFacetSublist(scope.facet);
         });

@@ -23,17 +23,14 @@
         scope.currentPage = 1;
         $http.get("../data/" + attrs.url).success(function(){console.log("greatsuccess")});
         scope.$watch(function() {
-          // console.log(storageService.getCurrentItems());
-
-          return storageService.getCurrentItems();
+          return storageService.getObject('currentItems');
         }, function() {
-          scope.currentItems = storageService.getCurrentItems();
+          scope.currentItems = storageService.getObject('currentItems');
         });
         scope.$watch(function() {
-          // console.log(storageService.getFacets());
-          return storageService.getFacets();
+          return storageService.getObject('facets');
         }, function() {
-          scope.facets = storageService.getFacets();
+          scope.facets = storageService.getObject('facets');
         });
       }
     };

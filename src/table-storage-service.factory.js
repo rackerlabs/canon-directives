@@ -8,62 +8,35 @@
     storageService.$inject = ['$q', 'tableDataService']
 
     function storageService($q, tableDataService) {
-      var masterData = null,
-          currentItems = null,
-          facets = null,
-          allchecked = true,
-          filterCriteria = {};
+      var ssObj = {};
 
       var service = {
+        getObject: getObject,
+        setObject: setObject,
         requestData: requestData,
-        allchecked: allchecked,
-        getMasterData: getMasterData,
-        setMasterData: setMasterData,
-        getCurrentItems: getCurrentItems,
-        setCurrentItems: setCurrentItems,
-        getFacets: getFacets,
-        setFacets: setFacets,
-        filterCriteria: filterCriteria,
         requestNewData: requestNewData
       };
-      console.log(service.allchecked);
 
       return service;
 
+      function getObject(pName) {
+          return ssObj[pName]; //returns null if non-existent
+      }
+
+      function setObject(pName, pData) {
+          ssObj[pName] = pData; //creates the object if non-existent
+      }
+
       function requestData(bRequestNew) {
         if (bRequestNew) return tableDataService.syncDataRequests();
-        return (masterData) ? $q.when(masterData) : tableDataService.syncDataRequests();
-      }
-
-      function getMasterData(argument) {
-        return masterData;
-      }
-
-      function setMasterData(pData) {
-        masterData = pData;
-      }
-
-      function getCurrentItems(argument) {
-        return currentItems;
-      }
-
-      function setCurrentItems(pItems) {
-        currentItems = pItems;
-      }
-
-      function getFacets() {
-        return facets;
-      }
-
-      function setFacets(pItems) {
-        facets = pItems;
+        return (getObject('masterData')) ? $q.when(getObject('masterData')) : tableDataService.syncDataRequests();
       }
 
       function requestNewData() {
         requestData(true).then(function(data) {
-          setMasterData(data);
-          setCurrentItems(data.items);
-          setFacets(data.facets);
+          setObject('masterData', data);
+          setObject('currentItems', data.items);
+          setObject('facets', data.facets);
         });
       }
     }
